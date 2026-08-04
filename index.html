@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Story Buddy</title>
+<style>
+  :root {
+    --bg: #fbf7ee;
+    --card: #fffdf7;
+    --text: #3f3226;
+    --muted: #7a6a55;
+    --faint: #8a7a62;
+    --green: #6b8f5a;
+    --orange: #d98452;
+    --rule: #e4dbc7;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.65;
+    font-size: 17px;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 56px 24px 96px; }
+  header { border-bottom: 2px solid var(--rule); padding-bottom: 24px; margin-bottom: 36px; }
+  h1 { font-size: 2rem; margin: 0 0 8px; letter-spacing: 0.2px; }
+  h2 { font-size: 1.25rem; margin: 40px 0 10px; color: var(--text); }
+  h3 { font-size: 1rem; margin: 24px 0 6px; color: var(--muted); }
+  .meta { color: var(--faint); font-size: 0.9rem; margin: 0; }
+  .lede { font-size: 1.05rem; color: var(--muted); }
+  ul { padding-left: 22px; }
+  li { margin-bottom: 8px; }
+  table { width: 100%; border-collapse: collapse; margin: 14px 0 4px; font-size: 0.95rem; }
+  th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+  th { color: var(--muted); font-weight: 700; }
+  .callout {
+    background: var(--card);
+    border: 2px solid var(--rule);
+    border-left: 6px solid var(--green);
+    border-radius: 12px;
+    padding: 16px 20px;
+    margin: 24px 0;
+  }
+  .callout p:first-child { margin-top: 0; }
+  .callout p:last-child { margin-bottom: 0; }
+  a { color: var(--orange); }
+  footer { margin-top: 56px; padding-top: 20px; border-top: 2px solid var(--rule); color: var(--faint); font-size: 0.9rem; }
+  .scroll { overflow-x: auto; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <h1>Story Buddy Privacy Policy</h1>
+  <p class="meta">Last updated: 31 July 2026</p>
+</header>
+
+<p class="lede">
+  Story Buddy makes personalised bedtime stories for children. A grown-up creates the account and
+  sets up each child's explorer profile. This policy explains what we collect, why, who we share it
+  with, and how to get it deleted.
+</p>
+
+<div class="callout">
+  <p><strong>The short version.</strong> We collect the parent's email address, the details you give
+  us about each child so their stories can feature them, and the stories themselves. We use AI
+  services to write and illustrate stories. We show no advertising, we use no analytics or tracking
+  SDKs, and we do not sell personal information or share it for advertising.</p>
+</div>
+
+<h2>Who we are</h2>
+<p>
+  Story Buddy is provided by [LEGAL ENTITY NAME], [ADDRESS]. If you have questions about this policy
+  or want your data deleted, email us at <a href="mailto:[CONTACT EMAIL]">[CONTACT EMAIL]</a>.
+</p>
+
+<h2>What we collect</h2>
+<div class="scroll">
+<table>
+  <thead>
+    <tr><th>What</th><th>Why we have it</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Parent's email address and password</strong></td>
+      <td>To create and secure the account. Passwords are stored only as salted hashes by our
+      authentication provider — we never see them.</td>
+    </tr>
+    <tr>
+      <td><strong>Child profile details:</strong> first name or nickname, age, hair colour, eye
+      colour, pets, and interests</td>
+      <td>To write stories that feature your child and to illustrate them consistently. You choose
+      what to enter; a nickname works as well as a real name.</td>
+    </tr>
+    <tr>
+      <td><strong>Stories and illustrations</strong> generated in the app, and the topic chosen for
+      each one</td>
+      <td>To show the story, read it aloud, and keep it in your library so it can be re-read.</td>
+    </tr>
+    <tr>
+      <td><strong>Usage counts:</strong> how many stories were generated in the current month</td>
+      <td>To enforce the monthly allowance for your plan.</td>
+    </tr>
+    <tr>
+      <td><strong>Subscription status:</strong> your plan, when it last changed, and an identifier
+      linking your account to our payments provider</td>
+      <td>To unlock what you have paid for and to restore it on a new device.</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<h3>What we do not collect</h3>
+<ul>
+  <li>No advertising identifiers, and no advertising of any kind.</li>
+  <li>No analytics, attribution, or tracking SDKs.</li>
+  <li>No location data, contacts, photos, or device address book.</li>
+  <li>No audio recordings. Story Buddy plays narration; it never listens.</li>
+  <li>No payment card details. Card data goes to Apple or Google and never reaches us.</li>
+</ul>
+
+<h2>Who we share it with</h2>
+<p>
+  We use a small number of service providers to run the app. They process data on our instructions
+  and are not permitted to use it for their own purposes.
+</p>
+<div class="scroll">
+<table>
+  <thead>
+    <tr><th>Provider</th><th>What it handles</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Supabase</td><td>Account sign-in, database, and file storage — the account, child
+    profiles, and saved stories all live here.</td></tr>
+    <tr><td>Anthropic</td><td>Writes the story text. The request includes your child's first name
+    and the profile details used to personalise the story.</td></tr>
+    <tr><td>fal.ai</td><td>Generates the illustrations and the narration audio, from a description
+    built out of the same profile details.</td></tr>
+    <tr><td>RevenueCat</td><td>Tracks which subscription an account holds.</td></tr>
+    <tr><td>Apple App Store / Google Play</td><td>Take the payment and manage billing. We receive
+    only the resulting subscription status.</td></tr>
+  </tbody>
+</table>
+</div>
+<p>
+  We may also disclose information where the law requires it, or to protect the rights and safety of
+  our users. We do not sell personal information, and we do not share it for cross-context
+  behavioural advertising.
+</p>
+
+<h2>Children's privacy</h2>
+<p>
+  Story Buddy is designed for a grown-up to set up and a child to enjoy. Account creation sits behind
+  a grown-up check, and it is the parent who enters each child's details and manages the subscription.
+  Children are not asked to provide any information themselves, and there is no chat, no social
+  feature, no user-to-user contact, and no advertising anywhere in the app.
+</p>
+<p>
+  The information a parent provides about a child is used solely to generate and illustrate that
+  child's stories, and to show them again in the library. As a parent you can review, change, or
+  delete anything you have entered at any time, and you can withdraw consent by deleting the child's
+  profile or the whole account.
+</p>
+
+<h2>Storage and security</h2>
+<p>
+  All traffic between the app and our services is encrypted in transit. Database access is restricted
+  per account, so one account cannot read another's children or stories. Story illustrations are held
+  in private storage, filed under the account that created them and readable by no one else — not by
+  another account, and not by anyone with the address. The app opens them through short-lived signed
+  links that stop working after a week.
+</p>
+
+<h2>How long we keep it</h2>
+<p>
+  We keep your account data for as long as the account exists. Deleting an explorer profile in the
+  app permanently deletes that child's details and their saved stories. Deleting your account removes
+  the account, every child profile on it, and every saved story. Backups are cycled out within
+  [BACKUP RETENTION PERIOD] days.
+</p>
+
+<h2>Your choices and rights</h2>
+<ul>
+  <li><strong>See or correct your data:</strong> profile details are editable in the app; email us
+  for anything you cannot reach.</li>
+  <li><strong>Delete a child's data:</strong> Account → Explorer profiles → Remove.</li>
+  <li><strong>Delete your account and everything in it:</strong> Account → Delete account. It takes
+  effect immediately. You can also email <a href="mailto:[CONTACT EMAIL]">[CONTACT EMAIL]</a> and we
+  will action it within 30 days.</li>
+  <li><strong>Get a copy of your data:</strong> email us and we will send an export.</li>
+  <li><strong>Manage your subscription:</strong> in your App Store or Play Store account settings.
+  Billing and cancellation are handled by the store, not by us.</li>
+</ul>
+<p>
+  Depending on where you live, you may have additional rights under the GDPR, UK GDPR, or state
+  privacy laws such as the CCPA — including the right to object to processing and to complain to your
+  local data protection authority. Where the GDPR applies, our lawful basis is the contract with you
+  for running the service, and consent for the child details you choose to provide.
+</p>
+
+<h2>International transfers</h2>
+<p>
+  Our providers process data in the United States and the European Union. Where data leaves your
+  region we rely on the providers' standard contractual clauses.
+</p>
+
+<h2>Changes to this policy</h2>
+<p>
+  If we change how we handle your information, we will update this page and change the date at the
+  top. Significant changes will be notified in the app.
+</p>
+
+<footer>
+  Questions? <a href="mailto:[CONTACT EMAIL]">[CONTACT EMAIL]</a>
+</footer>
+
+</div>
+</body>
+</html>
